@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fridge Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Fridge Recipe Finder</h1>
+        
+        <div id="ingredients-section">
+            <form id="fridgeForm">
+                <label for="ingredients">Enter ingredients in your fridge (comma-separated):</label>
+                <input type="text" id="ingredients" name="ingredients" required>
+                <button type="button" onclick="findRecipes()">Find Recipes</button>
+            </form>
+        </div>
+
+        <div id="results">
+            <div class="coloms">
+                <!-- Your recipe results will be displayed here -->
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
